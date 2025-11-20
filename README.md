@@ -1,70 +1,224 @@
-# Getting Started with Create React App
+Tunisia Travel Genie 🗺️🇹🇳
+A smart, interactive travel planning application that creates personalized itineraries for Tunisia using real geographic data and intelligent algorithms.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://img.shields.io/badge/Tunisia-Travel%2520Planning-blue
+https://img.shields.io/badge/React-18.2.0-61dafb
+https://img.shields.io/badge/Leaflet-Maps-199900
+https://img.shields.io/badge/Data-OpenStreetMap-orange
 
-## Available Scripts
+✨ Features
+🎯 Smart Itinerary Generation
+Multi-day trip planning (2, 3, 5, or 7 days)
 
-In the project directory, you can run:
+Personalized recommendations based on travel style (Couple, Family, Solo, Friends)
 
-### `npm start`
+Automatic activity scheduling with intelligent time management
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Proximity-based POI selection within 20km of selected hotel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🗺️ Interactive Maps & Navigation
+Leaflet-powered interactive maps with custom markers
 
-### `npm test`
+Real-time itinerary visualization with daily routes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Color-coded POI categories: 🏨 Hotels, 🍴 Restaurants, ☕ Cafes, 🏛️ Museums, 🎯 Attractions
 
-### `npm run build`
+Automatic zoom and bounds to show daily activities
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🏨 Intelligent Hotel System
+Advanced search and filter by city and hotel name
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Special region detection for authentic cultural experiences
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Smart pagination handling large datasets efficiently
 
-### `npm run eject`
+Hotel image integration with graceful fallbacks
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🌍 Special Region Experiences
+Authentic cultural itineraries for Zaghouan, Beja, and Jendouba
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Local expert integration and partnership connections
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Cultural activity recommendations beyond typical tourism
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Multi-language support (English & Arabic)
 
-## Learn More
+🛠️ Tech Stack
+Frontend: React 18.2.0, CSS3, JavaScript (ES6+)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Maps: Leaflet, React-Leaflet
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Data: GeoJSON, OpenStreetMap datasets
 
-### Code Splitting
+Styling: Custom CSS with gradient designs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Tools: QGIS for data processing
 
-### Analyzing the Bundle Size
+📊 Data Pipeline
+Data Sources & Processing
+Source: HDX Tunisia POI dataset from OpenStreetMap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Processing: QGIS filtering and data cleaning
 
-### Making a Progressive Web App
+Categorization:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+tourism=hotel → Hotels dataset
 
-### Advanced Configuration
+amenity=restaurant → Restaurants dataset
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+amenity=cafe → Cafes dataset
 
-### Deployment
+tourism=museum → Museums dataset
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+tourism=attraction → Attractions dataset
 
-### `npm run build` fails to minify
+Export: Separate GeoJSON files for each category
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Geographic Intelligence
+Haversine distance calculations for proximity-based recommendations
+
+Smart clustering of nearby points of interest
+
+Route optimization for logical activity sequencing
+
+Regional specialization for unique cultural experiences
+
+🚀 Quick Start
+Prerequisites
+Node.js 14+
+
+npm or yarn
+
+Installation
+bash
+# Clone the repository
+git clone https://github.com/mohamedZouari1/Tunisia-travel-genie.git
+
+# Navigate to project directory
+cd Tunisia-travel-genie
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+The application will open at http://localhost:3000
+
+📁 Project Structure
+text
+tunisia-travel-genie/
+├── public/
+│   ├── data/                   # GeoJSON datasets
+│   │   ├── hotels.geojson
+│   │   ├── restaurants.geojson
+│   │   ├── cafes.geojson
+│   │   ├── museums.geojson
+│   │   └── attractions.geojson
+│   └── index.html
+├── src/
+│   ├── components/             # React components
+│   ├── styles/                 # CSS files
+│   ├── utils/                  # Helper functions
+│   ├── App.js                  # Main application
+│   └── index.js
+├── package.json
+└── README.md
+🎨 Key Components
+Planning Wizard
+Step 1: Travel preferences and duration selection
+
+Step 2: Interactive hotel selection with maps
+
+Step 3: Personalized daily itinerary generation
+
+Step 4: Special region cultural experiences
+
+Smart Features
+Automatic activity categorization: Beaches, Parks, Historical sites, Viewpoints
+
+Time-based scheduling: Morning, afternoon, evening activities
+
+Transportation estimates: Walking vs taxi time calculations
+
+Print functionality: Export complete itineraries
+
+🌟 Unique Features
+Intelligent Algorithm
+javascript
+// Smart itinerary generation includes:
+- Morning cultural activities (museums, historical sites)
+- Lunch at nearby restaurants with local cuisine
+- Afternoon relaxation (beaches, parks, cafes)
+- Romantic viewpoints for couples
+- Family-friendly activities for families
+- Evening dining experiences
+Special Region Handling
+Automatic detection of Zaghouan, Beja, and Jendouba hotels
+
+Alternative content showcasing authentic cultural experiences
+
+Local expert connections for personalized guidance
+
+Multi-language city name recognition (English & Arabic)
+
+📈 Performance Features
+Efficient data loading with asynchronous GeoJSON parsing
+
+Smart pagination for large hotel datasets
+
+Lazy loading of images and map components
+
+Responsive design for all device sizes
+
+🔧 Customization
+Adding New Regions
+Update the getHotelZone function in App.js to detect new special regions.
+
+Modifying POI Categories
+Edit the categorization logic in the categorizeAttractions function.
+
+Styling Changes
+Modify App.css for custom colors, layouts, and animations.
+
+🤝 Contributing
+We welcome contributions! Please feel free to submit pull requests or open issues for:
+
+New features and enhancements
+
+Bug fixes and performance improvements
+
+Documentation updates
+
+Additional regional data
+
+Development Workflow
+Fork the repository
+
+Create a feature branch (git checkout -b feature/amazing-feature)
+
+Commit your changes (git commit -m 'Add amazing feature')
+
+Push to the branch (git push origin feature/amazing-feature)
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgments
+OpenStreetMap contributors for comprehensive geographic data
+
+HDX (Humanitarian Data Exchange) for Tunisia datasets
+
+Leaflet community for robust mapping solutions
+
+React team for the excellent framework
+
+QGIS for powerful geographic data processing tools
+
+📞 Support
+If you have any questions or need help with the application, please open an issue on GitHub.
+
+Experience Tunisia like never before with AI-powered travel planning! ✨
+
+Built with ❤️ for Tunisia explorers and adventure seekers
