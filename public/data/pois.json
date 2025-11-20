@@ -1,0 +1,124 @@
+{
+    "pois": [{
+            "id": 1,
+            "name": "Medina of Tunis",
+            "type": "cultural_site",
+            "city": "tunis",
+            "cultural_era": "Islamic",
+            "tags": ["history", "unesco", "shopping", "architecture"],
+            "description": "Get lost in the magical maze of the old town! This UNESCO site is a living museum with hidden cafes, artisan shops, and centuries of history around every corner.",
+            "time_needed": "3-4 hours",
+            "best_time": "Morning or late afternoon"
+        },
+        {
+            "id": 2,
+            "name": "Carthage Archaeological Site",
+            "type": "historical_site",
+            "city": "tunis",
+            "cultural_era": "Punic/Roman",
+            "tags": ["history", "roman", "archaeology", "views"],
+            "description": "Walk where Hannibal once stood! Explore the ruins of the empire that challenged Rome, with stunning Mediterranean views.",
+            "time_needed": "2-3 hours",
+            "best_time": "Morning"
+        },
+        {
+            "id": 3,
+            "name": "Sidi Bou Said",
+            "type": "cultural_site",
+            "city": "tunis",
+            "cultural_era": "Andalusian",
+            "tags": ["views", "photography", "cafes", "architecture"],
+            "description": "The famous blue and white village! Perfect for photos, sipping mint tea with sea views, and buying traditional crafts.",
+            "time_needed": "2-3 hours",
+            "best_time": "Sunset"
+        },
+        {
+            "id": 4,
+            "name": "Dar El Jeld Restaurant",
+            "type": "restaurant",
+            "city": "tunis",
+            "cultural_era": "Traditional",
+            "tags": ["food", "fine_dining", "traditional", "medina"],
+            "description": "Feast like a king in a restored palace! The most famous spot for authentic Tunisian cuisine in a magical setting.",
+            "time_needed": "1-2 hours",
+            "best_time": "Lunch or dinner"
+        },
+        {
+            "id": 5,
+            "name": "Ksar Ouled Soltane",
+            "type": "cultural_site",
+            "city": "tataouine",
+            "cultural_era": "Amazigh",
+            "tags": ["berber", "architecture", "desert", "star_wars"],
+            "description": "Discover the incredible 'ghorfas' - ancient fortified granaries that look like something from another planet!",
+            "time_needed": "1-2 hours",
+            "best_time": "Early morning or late afternoon"
+        },
+        {
+            "id": 6,
+            "name": "El Jem Amphitheatre",
+            "type": "historical_site",
+            "city": "sousse",
+            "cultural_era": "Roman",
+            "tags": ["roman", "unesco", "architecture", "history"],
+            "description": "Stand in Africa's best-preserved Roman arena! Imagine gladiators and chariots in this colossal structure.",
+            "time_needed": "1-2 hours",
+            "best_time": "Morning"
+        },
+        {
+            "id": 7,
+            "name": "Dougga Archaeological Site",
+            "type": "historical_site",
+            "city": "tunis",
+            "cultural_era": "Roman",
+            "tags": ["roman", "unesco", "architecture", "ruins"],
+            "description": "Explore one of the best-preserved Roman towns in Africa! Wander through ancient theaters, temples, and houses frozen in time.",
+            "time_needed": "3-4 hours",
+            "best_time": "Morning"
+        },
+        {
+            "id": 8,
+            "name": "Tozeur Desert Oasis",
+            "type": "natural_site",
+            "city": "tozeur",
+            "cultural_era": "Traditional",
+            "tags": ["desert", "oasis", "nature", "palms"],
+            "description": "Discover a magical sea of palm trees in the desert! Walk through ancient irrigation systems and enjoy the shade of thousands of date palms.",
+            "time_needed": "2 hours",
+            "best_time": "Morning or late afternoon"
+        },
+        {
+            "id": 9,
+            "name": "Monastir Ribat",
+            "type": "historical_site",
+            "city": "sousse",
+            "cultural_era": "Islamic",
+            "tags": ["history", "architecture", "views", "film_location"],
+            "description": "Climb ancient fortress walls with breathtaking sea views! This Islamic monastery was also a filming location for Monty Python.",
+            "time_needed": "1-2 hours",
+            "best_time": "Sunset"
+        },
+        {
+            "id": 10,
+            "name": "Djerba Island",
+            "type": "cultural_site",
+            "city": "tataouine",
+            "cultural_era": "Multi-cultural",
+            "tags": ["island", "beaches", "jewish_heritage", "relaxation"],
+            "description": "Experience the 'Island of Dreams' with its white beaches, colorful markets, and unique blend of Muslim and Jewish heritage.",
+            "time_needed": "Full day",
+            "best_time": "All day"
+        },
+        {
+            "id": 11,
+            "name": "Kairouan Great Mosque",
+            "type": "cultural_site",
+            "city": "sousse",
+            "cultural_era": "Islamic",
+            "tags": ["islamic", "architecture", "spiritual", "history"],
+            "description": "Visit one of Islam's holiest cities and marvel at the stunning architecture of one of Africa's oldest mosques.",
+            "time_needed": "1-2 hours",
+            "best_time": "Morning"
+        }
+    ]
+}
